@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-10T10:32:41 IST" name="Suite" finished-at="2024-11-10T10:33:06 IST" duration-ms="24817">
+    <groups>
+    </groups>
+    <test started-at="2024-11-10T10:32:41 IST" name="Test" finished-at="2024-11-10T10:33:06 IST" duration-ms="24817">
+      <class name="testcases.LoginTest">
+        <test-method signature="navigation(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@3234f74e]" started-at="2024-11-10T10:32:42 IST" name="navigation" data-provider="getData" finished-at="2024-11-10T10:32:52 IST" duration-ms="10462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method signature="navigation(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@3234f74e]" started-at="2024-11-10T10:32:53 IST" name="navigation" data-provider="getData" finished-at="2024-11-10T10:32:59 IST" duration-ms="6076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass@234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method signature="navigation(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@3234f74e]" started-at="2024-11-10T10:32:59 IST" name="navigation" data-provider="getData" finished-at="2024-11-10T10:33:05 IST" duration-ms="5942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass@456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
